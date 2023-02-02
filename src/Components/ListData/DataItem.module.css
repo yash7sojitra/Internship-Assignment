@@ -1,0 +1,37 @@
+.data_item {
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+.data_item h4 {
+    margin: 5px 0px;
+}
+
+.data_item li {
+    width: 20%;
+    margin: 10px 30px;
+}
+
+
+.extra_details ul {
+    margin: 10px 20px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.extra_details ul li {
+    margin: 10px 0px;
+}
+
+.extra_details h5,
+p {
+    margin: 2px 0px;
+}
+
+.gridData {
+    display: grid;
+    grid-template-columns: auto auto;
+}
